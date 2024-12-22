@@ -45,7 +45,7 @@ header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/bgimg2.png);
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 65vh;
     background-attachment: fixed;
 }
 
