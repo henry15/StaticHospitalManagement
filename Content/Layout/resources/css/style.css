@@ -41,19 +41,19 @@ body {
 /*---------------------------------*/
 
 header {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(img/bgimg3.png);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/bgimg3.png);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(img/bgimg3.jpg);
+    background-image: linear-gradient(#132855, rgb(255 255 255 / 14%)), url(img/bgimg3.jpg);
     background-size: cover;
     background-position: center;
-    height: 65vh;
+    height: 80vh;
     background-attachment: fixed;
 }
 
 .hero-text-box {
     position: absolute;
     width: 1140px;
-    top: 50%;
-    left: 50%;
+    top: 40%;
+    left: 54%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
@@ -172,6 +172,7 @@ h1 {
     font-size: 240%;
     word-spacing: 4px;
     letter-spacing: 1px;
+    font-weight: 500;
 }
 
 h2 {
@@ -242,8 +243,8 @@ input[type=submit] {
 
 .btn-ghost:link,
 .btn-ghost:visited{
-    border: 1px solid #30a5ff;
-    color: #30a5ff;
+    border: 1px solid #fff;
+    color: #fff;
 }
 
 .btn:hover, 
