@@ -53,6 +53,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
       tailwind.config = {
+        prefix: "tw-",
         corePlugins: { preflight: false },
       };
     </script>
@@ -95,15 +96,15 @@
       </div>
     </header>
 
-    <section class="section-features js-section-features" id="services">
+    <section
+      class="section-features js-section-features tw-container tw-mx-auto"
+      id="services"
+    >
       <div class="row">
         <h2>Services</h2>
-        <p class="long-copy">
-          Hello, this is Shree Krishna Hospital. We have best services for our
-          patients and manage them.
-        </p>
+        <p class="long-copy"></p>
       </div>
-      <div class="row js-wp-1">
+      <!-- <div class="row js-wp-1">
         <div class="col span-1-of-4 box for-icons">
           <i class="icon ion-md-medkit"></i>
           <h3>Emergency Care</h3>
@@ -140,7 +141,36 @@
             is developed and launched. Please check back soon for more updates.
           </p>
         </div>
-      </div>
+      </div> -->
+
+      <ul
+        class="tw-grid md:tw-grid-cols-2 tw-gap-3 *:tw-border-b *:tw-border-slate-400 *:tw-text-sm *:tw-font-semibold"
+      >
+        <li>Multispeciality Consultation</li>
+        <li>Infertility Treatment IUI & IVF (Test Tube Baby) Counselling</li>
+        <li>
+          24/7 Pathology Collection & Diagnortic Centre - All Blood Tests, ECG
+        </li>
+        <li>Child Care - Nebulization</li>
+        <li>Normal & Painless Delivery</li>
+        <li>Phototherapy & Vaccination Center</li>
+        <li>
+          Well Women Health Checkup - Pre Conceptional Counselling, Dietary
+          Advice
+        </li>
+        <li>
+          Cancer Screening Test - PAP Smear, Breast Cancer Early Detection
+          Mammography, Cancer Preventive Vaccination
+        </li>
+        <li>Menopause Clinic</li>
+        <li>General Medicine - Hypertension & Diabetes</li>
+        <li>Family Planning services - IUCD & Tubal Ligation</li>
+        <li>
+          General Surgary - Laparascopic cholecystectomy, Appendicectomy,
+          Hernia, Laser Piles Surgery
+        </li>
+        <li>Laparascopic & Endo scopic Surgery - Hysterectomy For Fibroid</li>
+      </ul>
     </section>
 
     <section class="section-steps" id="about">
